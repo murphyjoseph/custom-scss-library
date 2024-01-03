@@ -1,0 +1,32 @@
+{
+    "name": "custom-scss-library",
+    "author": "murphyjoseph",
+    "description": "just a fun custom scss library.",
+    "version": "1.0.0",
+    "main": "src/application.css",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/your-package-name.git"
+    },
+    "keywords": ["css", "stylesheet", "design"],
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "compile-scss": "sass ./src/styles/application-styles.module.scss src/application.css",
+        "build": "node scripts/build.js",
+        "test": "node scripts/test.js"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "sass": "^1.69.7"
+    },
+    "volta": {
+        "npm": "10.2.3",
+        "node": "20.10.0"
+    }
+}
